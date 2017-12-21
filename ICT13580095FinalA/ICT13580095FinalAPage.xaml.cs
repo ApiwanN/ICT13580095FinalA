@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using ICT13580095FinalA.Model;
+using Xamarin.Forms;
 
 namespace ICT13580095FinalA
 {
@@ -7,6 +8,7 @@ namespace ICT13580095FinalA
         public ICT13580095FinalAPage()
         {
             InitializeComponent();
+
         }
-    }
+	}
 }

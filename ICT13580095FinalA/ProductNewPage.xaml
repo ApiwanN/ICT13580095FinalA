@@ -3,17 +3,17 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="ICT13580095FinalA.ProductNewPage"
-    Padding="10">
+    Padding="10"
+    BackgroundColor="Black"
+>
        <Grid>
-        <Image
-            Source="https://i.pinimg.com/originals/88/d3/10/88d310e129e177d7cb3ddec925f9204a.jpg"
-            Aspect="Fill"/>
+        
 
         <ScrollView>
             <Frame
                 Margin="30"
                 CornerRadius="20"
-                BackgroundColor="#F4EAA4"
+                BackgroundColor="Yellow"
                 VerticalOptions="Start">
 
                 <StackLayout

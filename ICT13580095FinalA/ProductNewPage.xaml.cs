@@ -53,7 +53,12 @@ namespace ICT13580095FinalA
 
 		}
 
-		private void ChildStepper_ValueChanged(object sender, ValueChangedEventArgs e)
+        public ProductNewPage(Product product)
+        {
+            this.product = product;
+        }
+
+        private void ChildStepper_ValueChanged(object sender, ValueChangedEventArgs e)
 		{
 			int value = (int)e.NewValue;
 			valueLabel.Text = value.ToString();
